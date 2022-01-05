@@ -16,7 +16,9 @@ const cardsInfo = [
         image: one,
         topic: 'Marketing & Communication',
         format: 'Multimedia & Interactive',
-        language: 'English'
+        language: 'English',
+        description: 'This interactive tutorial introduces the student to the world of business management. The tutorial is divided into 4 sections: trade, trading activity, the complex sale and the personal sale process, where the student is introduced to the basic concepts of the commercial world up to how to put the seller ́s activity into'
+
 
     },
     {
@@ -24,42 +26,51 @@ const cardsInfo = [
         image: two,
         topic: 'Marketing & Communication',
         format: 'Multimedia & Interactive',
-        language: 'English'
+        language: 'English',
+        description: 'This interactive tutorial introduces the student to the world of business management. The tutorial is divided into 4 sections: trade, trading activity, the complex sale and the personal sale process, where the student is introduced to the basic concepts of the commercial world up to how to put the seller ́s activity into'
+
     },
     {
         title: "BASICS OF SALES MANAGEMENT",
         image: three,
         topic: 'Marketing & Communication',
         format: 'Multimedia & Interactive',
-        language: 'English'
+        language: 'English',
+        description: 'This interactive tutorial introduces the student to the world of business management. The tutorial is divided into 4 sections: trade, trading activity, the complex sale and the personal sale process, where the student is introduced to the basic concepts of the commercial world up to how to put the seller ́s activity into'
+
     },
     {
         title: "BASICS OF SALES MANAGEMENT",
         image: four,
         topic: 'Marketing & Communication',
         format: 'Multimedia & Interactive',
-        language: 'English'
+        language: 'English',
+        description: 'This interactive tutorial introduces the student to the world of business management. The tutorial is divided into 4 sections: trade, trading activity, the complex sale and the personal sale process, where the student is introduced to the basic concepts of the commercial world up to how to put the seller ́s activity into'
+
     },
     {
         title: "BASICS OF SALES MANAGEMENT",
         image: five,
         topic: 'Marketing & Communication',
         format: 'Multimedia & Interactive',
-        language: 'English'
+        language: 'English',
+        description: 'This interactive tutorial introduces the student to the world of business management. The tutorial is divided into 4 sections: trade, trading activity, the complex sale and the personal sale process, where the student is introduced to the basic concepts of the commercial world up to how to put the seller ́s activity into'
+
     },
     {
         title: "BASICS OF SALES MANAGEMENT",
         image: six,
         topic: 'Marketing & Communication',
         format: 'Multimedia & Interactive',
-        language: 'English'
+        language: 'English',
+        description: 'This interactive tutorial introduces the student to the world of business management. The tutorial is divided into 4 sections: trade, trading activity, the complex sale and the personal sale process, where the student is introduced to the basic concepts of the commercial world up to how to put the seller ́s activity into'
     },
 ]
 
 const BusinessCards = () => {
     return (
         <>
-        <h2 style={{marginLeft: '100px', marginTop: '50px', color: '#583bab'}}>BUSINESS CASES AND SIMULATIONSVIEW</h2>
+        <h2 className='business-cards-title' >BUSINESS CASES AND SIMULATIONS VIEW</h2>
         <div className='info-cards'>
             {
                 cardsInfo.map(cardInfo => <BusinessCard cardInfo={cardInfo}></BusinessCard>)

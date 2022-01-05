@@ -1,0 +1,10 @@
+.footer-section{
+    margin-top: 30px;
+    display: flex;
+    background-color: #583bab;
+    justify-content: space-evenly;
+    padding: 80px;
+}
+.footer-section img{
+    width: 100px;
+}
