@@ -23,5 +23,12 @@
     background: white;
     color: goldenrod;
     margin-top: 20px;
-
+    cursor: pointer;
+}
+.game-zone-btn:hover{
+    background-color: gold;
+    color: white;
+    font-size: larger;
+    border: none;
+    box-shadow: 2px 3px 3px gainsboro;
 }

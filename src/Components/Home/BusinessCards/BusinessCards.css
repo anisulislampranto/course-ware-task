@@ -6,8 +6,8 @@
     margin-top: 40px;
 }
 .see-more-btn{
-    margin-left: 500px;
-    margin-top: 30px;
+    margin-left: 45%;
+    margin-top: 3%;
     border: 1px solid gold;
     color: goldenrod;
     background-color: white;
@@ -15,6 +15,14 @@
     border-radius: 10px;
     width: 150px;
     height: 50px;
+    cursor: pointer;
+}
+.see-more-btn:hover{
+    background-color: gold;
+    color: white;
+    font-size: larger;
+    border: none;
+    box-shadow: 2px 3px 3px gainsboro;
 }
 .business-cards-title{
     color:  #583bab;

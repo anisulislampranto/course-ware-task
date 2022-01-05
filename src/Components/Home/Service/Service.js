@@ -1,10 +1,10 @@
 import React from 'react';
-import './BusinessCard.css';
-import laptop from '../../../images/laptop.png'
 import { Link } from 'react-router-dom';
+import './Service.css';
+import laptop from '../../../images/laptop.png';
 
-const BusinessCard = (props) => {
-    const {title, image, topic, format, language} = props.cardInfo;
+const Service = (props) => {
+    const {title, image, topic, format, language} = props.serviceInfo;
     return (
         <Link to={'/home'} className='info-card'>
             <img src={image} alt="" />
@@ -23,4 +23,4 @@ const BusinessCard = (props) => {
     );
 };
 
-export default BusinessCard;
+export default Service;
