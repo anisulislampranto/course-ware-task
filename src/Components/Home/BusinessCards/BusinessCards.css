@@ -1,0 +1,18 @@
+.info-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.see-more-btn{
+    margin-left: 500px;
+    margin-top: 30px;
+    border: 1px solid gold;
+    color: goldenrod;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+}
