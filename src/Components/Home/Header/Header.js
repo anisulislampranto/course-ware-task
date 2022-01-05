@@ -1,5 +1,4 @@
 import React from 'react';
-import BusinessCards from '../BusinessCards/BusinessCards';
 import HeaderBody from '../HeaderBody/HeaderBody';
 import Navbar from '../Navbar/Navbar';
 
@@ -8,7 +7,6 @@ const Header = () => {
         <div>
             <Navbar/>
             <HeaderBody/>
-            <BusinessCards/>
         </div>
     );
 };

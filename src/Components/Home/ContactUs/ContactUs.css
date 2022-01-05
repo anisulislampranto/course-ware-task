@@ -1,0 +1,28 @@
+.contact-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gainsboro;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    background-color: #583bab;
+    color: white;
+    border-radius: 10px;
+    gap: 100px;
+}
+.contact-card input{
+    padding: 15px;
+    border-radius: 5px;
+    width: 200px;
+    border: none;
+}
+.contact-card button{
+    padding: 15px;
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 30px;
+    background-color: white;
+    border: none;
+    font-weight: bolder;
+}
