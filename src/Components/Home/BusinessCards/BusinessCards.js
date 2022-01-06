@@ -76,7 +76,7 @@ const cardsInfo = [
 
 const BusinessCards = () => {
     return (
-        <>
+        <div className='busineess-cards'>
         <h2 className='business-cards-title' >BUSINESS CASES AND SIMULATIONS VIEW</h2>
         <div className='info-cards'>
             {
@@ -86,7 +86,7 @@ const BusinessCards = () => {
         <Link to={"/services"}>
             <button className='see-more-btn'> <strong>See More</strong></button>    
         </Link>
-        </>
+        </div>
     );
 };
 

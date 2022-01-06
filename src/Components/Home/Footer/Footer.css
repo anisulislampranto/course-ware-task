@@ -3,8 +3,17 @@
     display: flex;
     background-color: #583bab;
     justify-content: space-evenly;
-    padding: 80px;
+    padding: 80px 0px 80px 0px;
+    width: 100%;
 }
 .footer-section img{
     width: 100px;
+}
+@media screen and (max-width: 600px)  {
+    .footer-section{
+        display: grid;
+        grid-template-columns: repeat(1, 200px);
+        width: 100%;
+    }
+    
 }

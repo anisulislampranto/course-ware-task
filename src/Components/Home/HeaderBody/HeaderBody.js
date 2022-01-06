@@ -5,8 +5,10 @@ const HeaderBody = () => {
     return (
         <div className='header-body'>
             <div className='banner'>
-                <h1> Best Academic Areas <br /> you will find here</h1> <br />
-                <p>This interactive tutorial introduces the student to the world of business management. The tutorial is divided into 4 sections: trade, trading activity, the complex sale and the personal sale process.</p>
+                <div className='typo-on-image'>
+                    <h1> Best Academic Areas <br /> you will find here</h1> <br />
+                    <p>This interactive tutorial introduces the student to the world of business management. The tutorial is divided into 4 sections: trade, trading activity, the complex sale and the personal sale process.</p>
+                </div>
             </div>
             <div className='header-info'>
                 <h2 style={{color: '#583bab'}}>Academic Areas</h2>

@@ -9,9 +9,9 @@ const Navbar = () => {
                 <a href="home">Home</a>
                 <a href="about">About</a>
                 <a href="esources">Resources</a>
-                <a href="contact">Contact Us</a>
+                <a href="contact">Contact Us</a> 
                 <a style={{color: 'white'}} className='login' href="login">Log In</a>
-                <a className='registration' href="registration">Registration</a>
+                <a className='registration' href="registration">Register</a>
             </div>
         </div>
     );

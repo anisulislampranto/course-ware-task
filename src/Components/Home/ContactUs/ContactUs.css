@@ -3,13 +3,13 @@
     align-items: center;
     justify-content: center;
     border: 1px solid gainsboro;
-    margin-left: 10%;
-    margin-right: 10%;
     padding: 20px;
     background-color: #583bab;
     color: white;
     border-radius: 10px;
     gap: 100px;
+    width: 90%;
+    margin-left: 3%;
 }
 .contact-card input{
     padding: 15px;
@@ -25,4 +25,20 @@
     background-color: white;
     border: none;
     font-weight: bolder;
+}
+@media screen and (max-width: 600px) {
+    .contact-card{
+        display: grid;
+        grid-template-columns: repeat(1, 200px);
+        gap: 20px;
+        padding: 40px;
+        width: 70%;
+        margin-top: 20px;
+
+    }
+    .contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }

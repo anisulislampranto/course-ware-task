@@ -1,3 +1,7 @@
+.busineess-cards{
+    width: 100%;
+    text-align: center;
+}
 .info-cards{
     display: grid;
     grid-template-columns: repeat(3, 300px);
@@ -6,7 +10,6 @@
     margin-top: 40px;
 }
 .see-more-btn{
-    margin-left: 45%;
     margin-top: 3%;
     border: 1px solid gold;
     color: goldenrod;
@@ -27,4 +30,14 @@
 .business-cards-title{
     color:  #583bab;
     text-align: center;
+}
+@media screen and (max-width: 600px){
+    .busineess-cards{
+        text-align: center;
+    }
+    .info-cards{
+        display: grid;
+        grid-template-columns: repeat(1, 300px);
+    }
+    
 }

@@ -1,20 +1,25 @@
 .navbar{
     display: flex;
     justify-content: space-between;   
-    padding: 20px;
+    padding: 20px 5px 20px 5px;
     background: white;
     box-shadow: white;
     box-shadow: 0 3px 2px -2px gainsboro;
 }
-
 .logo{
     font-weight: bolder;
     font-size:x-large;
     text-decoration: none;
     color: #583bab;
 }
+.nav-links{
+    display: grid;
+    grid-template-columns: repeat(6, 90px);
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
 .nav-links a{
-    margin-left: 40px;
     text-decoration: none;
     color: black;
     font-weight: bolder;
@@ -33,4 +38,19 @@
     border: 1px solid #583bab;
     padding: 10px;
     border-radius: 5px;
+}
+@media screen and (max-width: 600px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .login{
+        flex-direction: column;
+    }
+    .nav-links{
+        grid-template-columns: repeat(3, 90px);
+        text-align: left;
+        margin-top: 2%;
+    }
 }

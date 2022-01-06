@@ -5,7 +5,7 @@ const ContactUs = () => {
     return (
         <div className='contact-card'>
             <h1>To Know more <br /> about CalibraX. <br /> Contact Us.</h1>
-            <div>
+            <div className='contact'>
                 <input type="text" placeholder='example@gmail.com'/>
                 <button>Submit</button>
             </div>

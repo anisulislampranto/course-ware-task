@@ -32,3 +32,12 @@
     border: none;
     box-shadow: 2px 3px 3px gainsboro;
 }
+@media screen and (max-width: 600px) {
+    .game-zone{
+        display: grid;
+        grid-template-columns: repeat(1, 90%);
+    }
+    .game-zone-logo{
+        width: 90%;
+    }
+}
