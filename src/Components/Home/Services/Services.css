@@ -38,3 +38,27 @@
     width: 250px;
     border-radius: 5px;
 }
+@media screen and (max-width: 600px) {
+    .services-body{
+        display: block;
+    }
+    .service-cards{
+        display: grid;
+        grid-template-columns: repeat(1, 300px);
+        align-items: center;
+        justify-content: center;
+    }
+    .service-search input{
+        width: 200px;
+    }
+    .service-search{
+        display: flex;
+        gap: 0;
+        margin: 18px;
+
+    }
+    .checkbox{
+        margin: 33px;
+        padding: 28px;
+    }
+}
