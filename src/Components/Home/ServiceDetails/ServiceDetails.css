@@ -1,0 +1,124 @@
+.course-details{
+    display: flex;
+    gap: 20px;
+
+}
+.course-info{
+    align-items: center;
+    justify-content: center;
+
+}
+.option-btn{
+    display: flex;
+    width: 100%;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+}
+.course-info-containers{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.option-btn button{
+    margin-right: 10px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.go-to-course-btn{
+    background-color: goldenrod;
+    padding: 15px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 2px gainsboro;
+    margin-left: 4%;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.course-description{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    padding: 15px;
+    box-shadow: 2px 4px 4px 4px gainsboro;
+    border:none;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 4%;
+}
+.course-info-container{
+    box-shadow: 2px 4px 4px 4px gainsboro;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.article-preview-card{
+    display: flex;
+    margin-top: 20px;
+    width: 30%;
+    padding: 10px;
+    box-shadow:2px 4px 4px 4px gainsboro; 
+    margin-left: 4%;
+    border-radius: 5px;
+}
+.price-card{
+    box-shadow:2px 4px 4px 4px gainsboro; 
+    width: 70%;
+    padding: 20px;
+    border-radius: 5px;
+}
+.buy-now-btn{
+    box-shadow:2px 4px 4px 4px gainsboro; 
+    width: 80%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid #583bab;
+    font-size: larger;
+    color: #583bab;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.author-info{
+    text-align: center;
+    box-shadow:2px 4px 4px 4px gainsboro; 
+    width: 70%;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+}
+.author-info img{
+    width: 40%;
+    border-radius: 5px;
+    box-shadow:2px 4px 4px 4px gainsboro; 
+
+}
+.author-info button{
+    box-shadow:2px 4px 4px 4px gainsboro; 
+    width: 80%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid #583bab;
+    font-size: larger;
+    color: #583bab;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.additional-info-card{
+    box-shadow:2px 4px 4px 4px gainsboro; 
+    width: 70%;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}

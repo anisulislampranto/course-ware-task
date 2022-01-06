@@ -6,7 +6,7 @@ import laptop from '../../../images/laptop.png';
 const Service = (props) => {
     const {title, image, topic, format, language} = props.serviceInfo;
     return (
-        <Link to={'/home'} className='info-card'>
+        <Link to={'/serviceDetails'} className='info-card'>
             <img src={image} alt="" />
             <h2 className='card-title'>{title}</h2>
             <p><strong>{topic}</strong></p>
