@@ -56,7 +56,7 @@ const ServiceDetails = () => {
                     </div>
                 </div>
 
-                <div>
+                <div className='author-and-price'>
                     <h2 className='price-card'><small>Price Per Unit:</small> <span style={{color:'goldenrod'}}>$5.00</span></h2>
                     <button className='buy-now-btn'>Buy Now</button>
                     <div className='author-info'>

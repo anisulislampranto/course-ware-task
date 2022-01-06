@@ -44,7 +44,7 @@
     cursor: pointer;
 }
 .course-description{
-    width: 90%;
+    width: 80%;
     align-items: center;
     justify-content: center;
     border: 1px solid gray;
@@ -121,4 +121,18 @@
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
+}
+@media screen and (max-width: 600px) {
+    .course-details{
+        display: block;
+    }
+    .course-info-containers{
+        grid-template-columns: repeat(1, 300px);
+    }
+    .author-and-price{
+        margin-left: 40px;
+    }
+    .go-to-course-btn{
+        margin-left: 120px;
+    }
 }
