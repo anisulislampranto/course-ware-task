@@ -41,3 +41,8 @@
     }
     
 }
+@media screen and (min-width: 1008px){
+    .info-cards{
+        gap: 100px
+    }
+}
