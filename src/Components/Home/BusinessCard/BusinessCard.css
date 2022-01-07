@@ -7,9 +7,10 @@
     box-shadow: 2px 4px 4px 4px gainsboro;
     text-decoration: none;
     color: black;
-
 }
-
+.description{
+    display: none;
+}
 .info-card img{
     width: 100%;
 }
@@ -34,4 +35,7 @@
 }
 .card-footer li{
     list-style: none;
+}
+.info-card:hover{
+    background-color: gainsboro;
 }

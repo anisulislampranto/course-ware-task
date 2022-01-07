@@ -9,6 +9,7 @@ const Service = (props) => {
         <Link to={'/serviceDetails'} className='info-card'>
             <img src={image} alt="" />
             <h2 className='card-title'>{title}</h2>
+            <h2 className="description"><strong>Description:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione reprehenderit sint amet autem rerum blanditiis.</h2>
             <p><strong>{topic}</strong></p>
             <div className='card-info'>
                 <img src={laptop} alt="" />

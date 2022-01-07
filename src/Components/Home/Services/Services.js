@@ -182,7 +182,7 @@ const Services = () => {
             </div>
             <div className="service-cards">
                 {
-                    servicesInfo.map(serviceInfo=> <Service serviceInfo={serviceInfo} key={serviceInfo.id}></Service>)
+                    servicesInfo.map(serviceInfo=> <Service serviceInfo={serviceInfo} key={servicesInfo.id}></Service>)
                 }
             </div>
         </div>
